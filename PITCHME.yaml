@@ -1,6 +1,7 @@
 theme : moon
 footnote : "Copyright © 2017 David Soff"
 theme-override : assets/css/PITCHME.css
-remote-control: true
-slide-number: false
-revealjs: 3.4.1
+remote-control : true
+slide-number : false
+revealjs : 3.4.1
+highlight : sunburst
