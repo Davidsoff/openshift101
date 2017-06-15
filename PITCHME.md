@@ -1,4 +1,4 @@
-# Openshift 101
+# OpenShift 101
 ### By: David Soff
 
 +++
@@ -12,9 +12,9 @@ Please clone the following git repository if you want to follow along with the h
 
 # Content
 - 5-minute Dockerfile refresher
-- What is Openshift
-- Why we chose Openshift
-- Openshift Concepts
+- What is OpenShift
+- Why we chose OpenShift
+- OpenShift Concepts
 
 ---
 
@@ -28,3 +28,36 @@ Please clone the following git repository if you want to follow along with the h
 
 ---
 
+# OpenShift
+
+- "Enterprise Kubernetes"
+- Made by RedHat
+- Opensource
+
++++
+
+# Enterprise Kubernetes?
+
++++
+
+# Kubernetes
+- Container orchestrator
+- Open-sourced by Google based on Borg
+- Container scheduling and monitoring
+- and much more!
+
++++
+
+# Extra in OpenShift
+- Builds |
+- Pipelines |
+- Role Based Acces Control |
+- More fancy dashboard |
+
+Note: RBAC is now a Kubernetes Beta
+
+---
+# Choosing OpenShift
+
+---
+# Thank you!
