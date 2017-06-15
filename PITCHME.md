@@ -1,5 +1,5 @@
 # OpenShift 101
-### By: David Soff
+By: David Soff
 
 +++
 
