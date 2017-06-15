@@ -1,16 +1,16 @@
-#Openshift 101
-###By : David Soff
+# Openshift 101
+### By: David Soff
 
 +++
 
-#Before we start
+# Before we start
 Please clone the following git repository if you want to follow along with the hands-on exercises.
 
 ```https://github.com/Davidsoff/openshift101.git```
 
 ---
 
-#Content
+# Content
 - 5-minute Dockerfile refresher
 - What is Openshift
 - Why we chose Openshift
