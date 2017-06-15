@@ -1,4 +1,5 @@
-footnote : "© 2017 David Soff"
+theme : moon
+footnote : "Copyright © 2017 David Soff"
 theme-override : assets/css/PITCHME.css
 remote-control: true
 slide-number: true

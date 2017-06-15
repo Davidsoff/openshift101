@@ -23,7 +23,7 @@ Please clone the following git repository if you want to follow along with the h
 +++?code=ex1/Dockerfile
 @[1](Base image)
 @[3](Sets user)
-@[5](copies files into container)
+@[5](Copies files into container)
 @[7](Exposes a port for mapping)
 
 ---

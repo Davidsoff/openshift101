@@ -10,3 +10,7 @@
 .reveal code, .reveal pre {
     color: white;
 }
+
+code.hljs {
+    background-color: #2e4156;
+}
