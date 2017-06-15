@@ -108,29 +108,115 @@ Because it's geared towards Developer Self-Service
 
 # Containers and images
 
+Note: building blocks of all your applications
+Note: push built images to the OpenSift registry
+
 ---
 
 # Pods and services
 
++++
+
+# Pods
+- Unit of scaling
+- Unit of deployment
+- One or more containers
+
+Note: Pod is smallest deployable unit in OpenShift
+Note: Pod can contain one or more containers
+Note: containers in pods guaranteed to run on same host
+
++++
+
+# Services
+- Internal load balancer
+- Enables High-Availability and rolling deploys
+
+Note: do pods and services exercise
+
 ---
 
-# Projects and users
+# Users and projects
+
++++
+
+# Users
+There are three user types:
+
+- Regular users
+- System users
+- Service accounts
+
+Note: service accounts are special users associated with an account, like deployer and builder
+
++++
+
+# Projects
+- Scope resources
+- Can constrain resource usage
+- Have access policies
 
 ---
 
-# Builds and image streams
+# Image streams and builds
+
++++
+
+# Image streams
+
++++
+
+# Builds
+(Usually) transforms source code into an image using a build strategy
+
+Openshift has four strategies:
+
+- Docker build
+- Source-to-image build
+- Custom build
+- Pipeline build 
+
++++
+
+# Source-to-image
+
+uses builder image to produce a ready to run Docker image
+
+Note: do s2i exercise
+
++++
+
+# Pipelines
+
+Can be used to implement sophisticated workflows
+Use a Jenkinsfile for configuration
+
+Note: do pipeline-cd exercise
 
 ---
 
 # Deployments
+- Start pods
+- Can be automatically triggered
+- Manage transistion between versions
+
+Note: apply recreate-strategy to pipeline exercise
 
 ---
 
 # Routes
+- Expose services on a URL
+- Can do traffic sharding
+- Can be used as SSL terminators
+
+Note: create route for pipeline exercise
 
 ---
 
 # Templates
+> A template describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift.
+
+Note: we've been using these in the exercises.
 
 ---
 
