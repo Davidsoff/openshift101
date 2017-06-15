@@ -1,0 +1,12 @@
+.reveal{
+  background-color: midnightblue;
+  color: #fcf8e3;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  color: inherit;
+}
+
+.reveal code, .reveal pre {
+    color: white;
+}
