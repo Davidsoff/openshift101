@@ -21,9 +21,9 @@ Please clone the following git repository if you want to follow along with the h
 # Dockerfile
 
 +++?code=ex1/Dockerfile
-@[1](base image)
-@[3](set user, does nothing in this case as user is already root)
-@[5](copies files into layer, prefer this over ADD)
+@[1](Base image)
+@[3](Sets user)
+@[5](copies files into container)
 @[7](Exposes a port for mapping)
 
 ---
