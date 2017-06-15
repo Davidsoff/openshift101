@@ -4,7 +4,7 @@
 +++
 
 #Before we start
-Please clone the following git repository if you want to follow along with the hands-on excercises.
+Please clone the following git repository if you want to follow along with the hands-on exercises.
 
 ```https://github.com/Davidsoff/openshift101.git```
 
