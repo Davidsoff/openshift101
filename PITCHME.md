@@ -47,7 +47,8 @@ Please clone the following git repository if you want to follow along with the h
 - project by CNCF
 - and much more!
 
-Note: CNCF = Cloud Native Computing Foundation
+Note:
+CNCF = Cloud Native Computing Foundation
 +++
 
 # Extra in OpenShift
@@ -56,7 +57,8 @@ Note: CNCF = Cloud Native Computing Foundation
 - Role Based Acces Control |
 - More fancy dashboard |
 
-Note: RBAC is now a Kubernetes Beta
+Note:
+RBAC is now a Kubernetes Beta
 
 ---
 
@@ -108,8 +110,9 @@ Because it's geared towards Developer Self-Service
 
 # Containers and images
 
-Note: building blocks of all your applications
-Note: push built images to the OpenSift registry
+Note:
+building blocks of all your applications
+push built images to the OpenSift registry
 
 ---
 
@@ -122,9 +125,10 @@ Note: push built images to the OpenSift registry
 - Unit of deployment
 - One or more containers
 
-Note: Pod is smallest deployable unit in OpenShift
-Note: Pod can contain one or more containers
-Note: containers in pods guaranteed to run on same host
+Note:
+Pod is smallest deployable unit in OpenShift
+Pod can contain one or more containers
+containers in pods guaranteed to run on same host
 
 +++
 
@@ -132,7 +136,8 @@ Note: containers in pods guaranteed to run on same host
 - Internal load balancer
 - Enables High-Availability and rolling deploys
 
-Note: do pods and services exercise
+Note:
+do pods and services exercise
 
 ---
 
@@ -147,7 +152,8 @@ There are three user types:
 - System users
 - Service accounts
 
-Note: service accounts are special users associated with an account, like deployer and builder
+Note:
+service accounts are special users associated with an account, like deployer and builder
 
 +++
 
@@ -182,7 +188,8 @@ Openshift has four strategies:
 
 uses builder image to produce a ready to run Docker image
 
-Note: do s2i exercise
+Note:
+do s2i exercise
 
 +++
 
@@ -191,7 +198,8 @@ Note: do s2i exercise
 Can be used to implement sophisticated workflows
 Use a Jenkinsfile for configuration
 
-Note: do pipeline-cd exercise
+Note:
+do pipeline-cd exercise
 
 ---
 
@@ -200,7 +208,8 @@ Note: do pipeline-cd exercise
 - Can be automatically triggered
 - Manage transistion between versions
 
-Note: apply recreate-strategy to pipeline exercise
+Note:
+apply recreate-strategy to pipeline exercise
 
 ---
 
@@ -209,14 +218,16 @@ Note: apply recreate-strategy to pipeline exercise
 - Can do traffic sharding
 - Can be used as SSL terminators
 
-Note: create route for pipeline exercise
+Note:
+create route for pipeline exercise
 
 ---
 
 # Templates
 > A template describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift.
 
-Note: we've been using these in the exercises.
+Note:
+we've been using these in the exercises.
 
 ---
 
